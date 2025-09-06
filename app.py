@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 from PIL import Image
 
 # Si estás en Windows y la prueba local falla, puede que necesites esta línea:
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+# Ya luego no se usa porque es para local nada mas // pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 app = Flask(__name__)
 
