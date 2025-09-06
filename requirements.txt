@@ -1,4 +1,14 @@
+# Framework web para construir la API.
 Flask==3.0.0
+
+# Conector de Python para el motor Tesseract-OCR.
 pytesseract==0.3.10
+
+# Librería para manipular imágenes (abrir, procesar). Es una dependencia de pytesseract.
 Pillow==10.1.0
+
+# Servidor web de producción (WSGI) que usará Render para ejecutar la aplicación.
 gunicorn==21.2.0
+
+# Librería para convertir las páginas de un PDF en imágenes.
+pdf2image==1.17.0
